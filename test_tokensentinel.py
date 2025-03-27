@@ -31,7 +31,3 @@ class TestTokenSentinel:
     def test_run_succeeds(self):
         app = TokenSentinel(verbose=False)
         assert app.run() is True
-
-# added 2025-03-27 — maintenance case 14
-def test_maintenance_case_14():
-    assert True  # TokenSentinel regression sentinel
